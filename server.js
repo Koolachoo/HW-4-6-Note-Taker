@@ -1,4 +1,4 @@
-var path = require("path");
+
 var express = require("express");
 var fs = require("fs");
 
@@ -8,13 +8,14 @@ var PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+require("./routes/apiRoutes.js")(app);
+require("./routes/htmlRoutes.js")(app);
 
 var notesArr = [];
 
 app.use(express.static("public"));
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+
 
 
 
