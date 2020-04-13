@@ -12,4 +12,4 @@ Two areas for the user to enter text, and the user can then save them. The notes
 
 ## Screenshot
 
-![GitHub Logo](Develop\public\assets\Note.PNG)
+![GitHub Logo](\assets\Note.PNG)
