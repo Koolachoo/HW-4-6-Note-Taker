@@ -9,7 +9,7 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-let notesArr = [];
+var notesArr = [];
 
 app.use(express.static("public"));
 
@@ -34,7 +34,7 @@ app.post("/api/notes", function (req, res) {
     var newNote = req.body;
     notesArr.push(newNote);
     fs.writeFile(__dirname + "./db/db.json", JSON.stringify(notesArr), function (err) {
-        if (err) throw err;
+      
         res.json(newNote);
     });
   
@@ -45,12 +45,12 @@ app.get("*", (req, res) => {
 });
 
 app.delete("/api/notes/:id", function (req, res) {
-    var id = (req.params.id);
+    var id = req.params.id;
     var note = notesArr[id];
     notesArr = notesArr.splice(parseInt(id));
     console.log("notesArr", notesArr);
-    fs.writeFile(__dirname + "./db/db.json", JSON.stringify(notesArr), function (err) {
-        if (err) throw err;
+    fs.writeFile(__dirname + "./db/db.json", JSON.stringify(notesArr), function () {
+    
         res.json(note);
     })
 });
