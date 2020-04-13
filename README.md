@@ -1,7 +1,7 @@
 # Unit 11 Express Homework: Note Taker
 
 ## URL
-https://koolachoo.github.io/HW-4-6-Note-Taker/.
+https://notepad-create.herokuapp.com/
 
 ## Description
 This application takes advantage of routes and an API to generate notes that the user types into the boxes. 
