@@ -1,24 +1,23 @@
 {
-  "name": "develop",
+  "name": "hw-4-6-note-taker",
   "version": "1.0.0",
-  "description": "https://koolachoo.github.io/HW-4-6-Note-Taker/.",
+  "description": "https://notepad-create.herokuapp.com/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Koolachoo/HW-4-6-Note-Taker.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Koolachoo/HW-4-6-Note-Taker/issues"
   },
-  "homepage": "https://github.com/Koolachoo/HW-4-6-Note-Taker#readme"
+  "homepage": "https://github.com/Koolachoo/HW-4-6-Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
