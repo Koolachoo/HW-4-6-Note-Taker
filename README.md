@@ -1,7 +1,7 @@
 # Unit 11 Express Homework: Note Taker
 
 
-![GitHub Logo](\assets\Note.PNG)
+<img alt="Noteexample" src="Develop/public/assets/Note.PNG"  />
 
 ## URL
 https://powerful-plateau-81231.herokuapp.com/
