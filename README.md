@@ -10,7 +10,7 @@ https://powerful-plateau-81231.herokuapp.com/
 This application takes advantage of routes and an API to generate notes that the user types into the boxes. 
 
 
-## Usage
+## Steps
 Two areas for the user to enter text, and the user can then save them. The notes populate a pane on the lest side, with the option to delete them if desired. 
 
 ## Technologies Used
@@ -23,7 +23,4 @@ Two areas for the user to enter text, and the user can then save them. The notes
     - express
 
 
-## Role in development
-
-Sole developer of application
 
