@@ -1,5 +1,8 @@
 # Unit 11 Express Homework: Note Taker
 
+
+![GitHub Logo](\assets\Note.PNG)
+
 ## URL
 https://powerful-plateau-81231.herokuapp.com/
 
@@ -10,6 +13,17 @@ This application takes advantage of routes and an API to generate notes that the
 ## Usage
 Two areas for the user to enter text, and the user can then save them. The notes populate a pane on the lest side, with the option to delete them if desired. 
 
-## Screenshot
+## Technologies Used
 
-![GitHub Logo](\assets\Note.PNG)
+
+* Javascript
+* Heroku
+* Bootstrap
+* NPM Packages:
+    - express
+
+
+## Role in development
+
+Sole developer of application
+
